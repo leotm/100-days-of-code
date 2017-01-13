@@ -1,5 +1,39 @@
 # 100 Days Of Code - Log
 
+### Day 11: January 13, 2017
+
+**Today's Progress**: 
+Finished 4+ FreeCodeCamp excercises.
+
+**Thoughts** 
+*Profile Lookup* had me a while, plus the early hours of the morning. Silly me, nesting a return statement inside a for loop of a function, so it might not reach the final iteration. Replaced it with a counter instead, then after the loop, return if the counter's reached.
+So I'm reminded Math.random() gives those long-ass decimal. So *toFixed()* not compulsory for decimal format.
+*Generate Random Whole Numbers within a Range* had me a while again, because ofc I'd rather derive formula myself. Checking Math.round() as a minimum like *0.01* reminded me of the *+1* part.
+
+### Day 10: January 12, 2017
+
+**Today's Progress**: 
+Finished 26 FreeCodeCamp excercises.
+
+**Thoughts** 
+Learnt the term *lookup table*, to consider instead of *switch*'s and *if/else*'s statements.
+
+### Day 9: January 11, 2017
+
+**Today's Progress**: 
+Finished 25 FreeCodeCamp excercises.
+
+**Thoughts** 
+Haven't really used the JS *delete* keyword much.
+
+### Day 8: January 10, 2017
+
+**Today's Progress**: 
+Finished 25 FreeCodeCamp excercises.
+
+**Thoughts** 
+So JS String values are *immutable*. Daaayum.
+
 ### Day 7: January 9, 2017
 
 **Today's Progress**: 
@@ -69,6 +103,7 @@ Since have to wait for the remaining challenges to unlock, did a Database challe
 Finished 39 FreeCodeCamp excercises.
 Watched last half of #Open2017
 
+
 **Thoughts**
 Finished the HTML5 & CSS section, then 1/4 of the Responsive Design with Bootstrap.
 Bit of a grind, mostly just skipping to the tasks, dopamine hits galore.
@@ -84,7 +119,7 @@ Enrolled on [The Nature of Code](https://www.kadenze.com/courses/the-nature-of-c
 Watched the first half of #Open2017
 
 **Thoughts**
-I opened a FreeCodeCamp account a while ago, because Quincy Larson gives practical advice. But I didn't go much further, thinking it seems like another Codecademy. After hearing everyone talk on #Open2017, I thought fine - if it turns out to be easy, let's blast through them. A little refresher can't hurt, I'm sure I can learn a thing or two along the way, and the certificates could be nice bonus. Today was mostly simple HTML5 & CSS.
+I opened a FreeCodeCamp account a while ago, because Quincy Larson gives practical advice. But I didn't go much further, thinking it seems like another Codecademy. After hearing everyone talk on #Open2017, I thought fine - if it turns out to be easy, let's blast through them. A little refresher can't hurt, can maybe learn a thing or two along the way, and the certificates could be nice bonus. Today was mostly simple HTML5 & CSS.
 I came across [The 10 best free online courses of 2016 according to the data
 ](https://medium.freecodecamp.com/best-free-online-courses-of-2016-c479b55ed851#.olacxjwzg), checked out [The Nature of Code](https://www.class-central.com/mooc/3777/kadenze-the-nature-of-code), and just had to enroll.
 
