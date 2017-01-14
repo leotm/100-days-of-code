@@ -3,12 +3,13 @@
 ### Day 11: January 13, 2017
 
 **Today's Progress**: 
-Finished 4+ FreeCodeCamp excercises.
+Finished 23 FreeCodeCamp excercises.
 
 **Thoughts** 
-*Profile Lookup* had me a while, plus the early hours of the morning. Silly me, nesting a return statement inside a for loop of a function, so it might not reach the final iteration. Replaced it with a counter instead, then after the loop, return if the counter's reached.
-So I'm reminded Math.random() gives those long-ass decimal. So *toFixed()* not compulsory for decimal format.
-*Generate Random Whole Numbers within a Range* had me a while again, because ofc I'd rather derive formula myself. Checking Math.round() as a minimum like *0.01* reminded me of the *+1* part.
+Was good to come across JS *match()*, since only used regex in Sublime to find/replace.
+Wasn't aware *contructor function* was the term.
+Nice recapping *Array* functions.
+Started algorithms, *Reverse a String* was fairly straight forward.
 
 ### Day 10: January 12, 2017
 
@@ -17,6 +18,7 @@ Finished 26 FreeCodeCamp excercises.
 
 **Thoughts** 
 Learnt the term *lookup table*, to consider instead of *switch*'s and *if/else*'s statements.
+*Profile Lookup* had me a while, plus the early hours of the morning. Silly me, nesting a return statement inside a for loop of a function, so it might not reach the final iteration. Replaced it with a counter instead, then after the loop, return if the counter's reached.
 
 ### Day 9: January 11, 2017
 
@@ -25,6 +27,8 @@ Finished 25 FreeCodeCamp excercises.
 
 **Thoughts** 
 Haven't really used the JS *delete* keyword much.
+So I'm reminded Math.random() gives those long-ass decimal. So *toFixed()* not compulsory for decimal format.
+*Generate Random Whole Numbers within a Range* had me a while again, because ofc I'd rather derive formula myself. Checking Math.round() as a minimum like *0.01* reminded me of the *+1* part.
 
 ### Day 8: January 10, 2017
 
