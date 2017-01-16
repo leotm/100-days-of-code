@@ -1,50 +1,94 @@
 # 100 Days Of Code - Log
 
+### Day 13: January 15, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Check for Palindromes* algorithm challenge.
+
+**Thoughts** 
+So it seems, when:
+var a = ["l","e","o"];
+var b = a;
+a.reverse() // or b.reverse()
+// Both are reversed. So may need to copy with a.splice()
+// But if either array is changed, the link is broken, .reverse() will no longer reverse both
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Algorithms | Check for Palindromes](https://www.freecodecamp.com/challenges/check-for-palindromes#?solution=function%20palindrome(str)%20%7B%0A%20%20%2F%2F%20Remove%20non-alphanumeric%20characters%0A%20%20%2F%2F%20%5CW%20leaves%20the%20underscore%0A%20%20%2F%2F%20A%20short%20equivalent%20for%20%5B%5Ea-zA-Z0-9%5D%20would%20be%20%5B%5CW_%5D%0A%20%20%2F%2F%20%5CW%20is%20the%20negation%20of%20shorthand%20%5Cw%20for%20%5BA-Za-z0-9_%5D%20word%20characters%20(including%20the%20underscore)%0A%20%20str%20%3D%20str.replace(%2F%5B%5CW_%5D%2B%2Fg%2C%22%22)%3B%0A%20%20%2F%2F%20Convert%20to%20lower%20case%0A%20%20str%20%3D%20str.toLowerCase()%3B%0A%20%20%2F%2F%20Copy%20and%20store%20original%2C%20for%20comparison%20later%0A%20%20var%20orig%20%3D%20str.slice()%3B%0A%20%20%2F%2F%20Split%20to%20array%0A%20%20str%20%3D%20str.split(%22%22)%3B%0A%20%20%2F%2F%20Reverse%0A%20%20str.reverse()%3B%0A%20%20%2F%2F%20Join%0A%20%20str%20%3D%20str.join(%22%22)%3B%0A%20%20%2F%2F%20Return%20if%20equals%20original%0A%20%20return%20orig%20%3D%3D%3D%20str%3B%0A%7D%0A%0Apalindrome(%22_eye%22)%3B)
+
+### Day 12: January 14, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Factorialize a Number* algorithm challenge.
+
+**Thoughts** 
+Failed on *Factorialize a Number*, using *for* loop to *push* an array of numbers 1 to N, then using *reduce*, prev * cur. Forgot about recursion.
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Factorialize a Number](https://www.freecodecamp.com/challenges/factorialize-a-number#?solution=function%20factorialize(num)%20%7B%0A%20%20%2F%2F%20To%20handle%20the%20case%20where%20num%20%3D%200%0A%20%20if%20(num%20%3D%3D%3D%200)%20%7B%0A%20%20%20%20return%201%3B%0A%20%20%7D%0A%20%20%2F%2F%20Return%20recursive%20answer%20until%20num%20%3D%200%0A%20%20return%20num%20*%20factorialize(num-1)%3B%0A%7D%0A%2F%2F%20Test%20case%0Afactorialize(5)%3B)
+
 ### Day 11: January 13, 2017
 
 **Today's Progress**: 
-Finished 23 FreeCodeCamp excercises.
+Finished 23 freeCodeCamp excercises.
+Finished *Basic JavaScript*.
+Started *Basic Algorithm Scripting*.
 
 **Thoughts** 
 Was good to come across JS *match()*, since only used regex in Sublime to find/replace.
 Wasn't aware *contructor function* was the term.
 Nice recapping *Array* functions.
-Started algorithms, *Reverse a String* was fairly straight forward.
+*Reverse a String* was fairly straight forward.
+
+**Link(s) to work**
+[freecodecamp.com/leotm](https://www.freecodecamp.com/leotm)
 
 ### Day 10: January 12, 2017
 
 **Today's Progress**: 
-Finished 26 FreeCodeCamp excercises.
+Finished 26 freeCodeCamp excercises.
 
 **Thoughts** 
 Learnt the term *lookup table*, to consider instead of *switch*'s and *if/else*'s statements.
 *Profile Lookup* had me a while, plus the early hours of the morning. Silly me, nesting a return statement inside a for loop of a function, so it might not reach the final iteration. Replaced it with a counter instead, then after the loop, return if the counter's reached.
 
+**Link(s) to work**
+[freecodecamp.com/leotm](https://www.freecodecamp.com/leotm)
+
 ### Day 9: January 11, 2017
 
 **Today's Progress**: 
-Finished 25 FreeCodeCamp excercises.
+Finished 25 freeCodeCamp excercises.
 
 **Thoughts** 
 Haven't really used the JS *delete* keyword much.
 So I'm reminded Math.random() gives those long-ass decimal. So *toFixed()* not compulsory for decimal format.
 *Generate Random Whole Numbers within a Range* had me a while again, because ofc I'd rather derive formula myself. Checking Math.round() as a minimum like *0.01* reminded me of the *+1* part.
 
+**Link(s) to work**
+[freecodecamp.com/leotm](https://www.freecodecamp.com/leotm)
+
 ### Day 8: January 10, 2017
 
 **Today's Progress**: 
-Finished 25 FreeCodeCamp excercises.
+Started *Basic JavaScript*.
+Finished 25 freeCodeCamp excercises.
 
 **Thoughts** 
 So JS String values are *immutable*. Daaayum.
 
+**Link(s) to work**
+[freecodecamp.com/leotm](https://www.freecodecamp.com/leotm)
+
 ### Day 7: January 9, 2017
 
 **Today's Progress**: 
-Finished 40 FreeCodeCamp excercises.
+Finished 40 freeCodeCamp excercises.
+Finished *jQuery*.
+Finished *Basic Front End Development Projects*.
 
 **Thoughts** 
-Finished jQuery, learnt some things, and good refresher.
+Learnt some things, and good refresher.
 Whipped up a quick tribute page. Haven't the *jumbotron*, *caption* nor *offset* before.
 Since I already have a portfolio, spent 15 minutes inspecting the source code of the example.
 Got through 1/4 of Basic JS.
