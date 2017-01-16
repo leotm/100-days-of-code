@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 14: January 16, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Find the Longest Word in a String* algorithm challenge.
+
+**Thoughts** 
+Fairly straight forward.
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string#?solution=function%20findLongestWord(str)%20%7B%0A%20%20%2F%2F%20Split%20string%0A%20%20str%20%3D%20str.split(%22%20%22)%3B%0A%20%20%2F%2F%20Declare%20longest%20word%0A%20%20var%20longestWord%20%3D%200%3B%0A%20%20%2F%2F%20For%20each%20word%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20str.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20%2F%2F%20If%20current%20word%20is%20longer%20than%20stored%20longest%20word%0A%20%20%20%20if%20(str%5Bi%5D.length%20%3E%20longestWord)%20%7B%0A%20%20%20%20%20%20%2F%2F%20Store%20it%0A%20%20%20%20%20%20longestWord%20%3D%20str%5Bi%5D.length%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20return%20longestWord%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0AfindLongestWord(%22The%20quick%20brown%20fox%20jumped%20over%20the%20lazy%20dog%22)%3B)
+
 ### Day 13: January 15, 2017
 
 **Today's Progress**: 
