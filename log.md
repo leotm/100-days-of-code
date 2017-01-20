@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 15: January 17, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Title Case a Sentence* algorithm challenge.
+
+**Thoughts** 
+I totally failed today. For a couple hours. Taking a break, works pretty damn well.
+Initially misunderstood the challenge, quickly giving an ideal to solution to return the only the first letters of each word, capitalised.
+What cost me like an hour? Using array.push(" "), adding a last character, increasing the array size, creating an infinite loop, since the nested *for* loop is looping through each character of each word.
+Unforts I have repeated code in my solution, since I can't whack *break*s aren't valid inside functions. Damn.
+
 ### Day 14: January 16, 2017
 
 **Today's Progress**: 
