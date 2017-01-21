@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 15: January 18, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Return Largest Numbers in Arrays* algorithm challenge.
+
+**Thoughts** 
+Nearly had it. Didn't pass the 2nd test case.
+Copied the code into a Chrome Dev Tools snippet, proceeded to debug.
+Realised I forgot to clear/reset *largest* variable per loop, otherwise it will remember the largest number from the previous array.
+Debugging wins.
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Return Largest Numbers in Arrays](https://www.freecodecamp.com/challenges/return-largest-numbers-in-arrays#?solution=%0Afunction%20largestOfFour(arr)%20%7B%0A%20%20var%20largest%20%3D%200%3B%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20arr.length%3B%20i%2B%2B)%20%7B%20%2F%2F%20For%20each%20array%0A%20%20%20%20for%20(var%20j%20%3D%200%3B%20j%20%3C%20arr%5Bi%5D.length%3B%20j%2B%2B)%20%7B%20%2F%2F%20For%20each%20number%0A%20%20%20%20%20%20if%20(arr%5Bi%5D%5Bj%5D%20%3E%20largest)%20%7B%0A%20%20%20%20%20%20%20%20largest%20%3D%20arr%5Bi%5D%5Bj%5D%3B%20%2F%2F%20Store%20largest%20number%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20arr%5Bi%5D%20%3D%20largest%3B%20%2F%2F%20Assign%20largest%20number%0A%20%20%20%20largest%20%3D%200%3B%20%2F%2F%20Clear%20largest%20number%0A%20%20%7D%0A%20%20return%20arr%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0AlargestOfFour(%5B%5B13%2C%2027%2C%2018%2C%2026%5D%2C%20%5B4%2C%205%2C%201%2C%203%5D%2C%20%5B32%2C%2035%2C%2037%2C%2039%5D%2C%20%5B1000%2C%201001%2C%20857%2C%201%5D%5D)%3B)
+
 ### Day 15: January 17, 2017
 
 **Today's Progress**: 
