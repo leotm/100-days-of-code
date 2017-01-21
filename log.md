@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 17: January 19, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Confirm the Ending* algorithm challenge.
+
+**Thoughts** 
+Pretty straight forward.
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Confirm the Ending](https://www.freecodecamp.com/challenges/confirm-the-ending#?solution=%0Afunction%20confirmEnding(str%2C%20target)%20%7B%0A%20%20return%20(str.substring(str.length-target.length%2C%20str.length)%20%3D%3D%3D%20target)%3B%0A%7D%0A%0AconfirmEnding(%22Bastian%22%2C%20%22n%22)%3B%0A)
+
 ### Day 16: January 18, 2017
 
 **Today's Progress**: 
