@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 17: January 19, 2017
+### Day 18: January 20, 2017
 
 **Today's Progress**: 
 Solved the freeCodeCamp *Repeat a string repeat a string* algorithm challenge.
