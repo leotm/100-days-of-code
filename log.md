@@ -3,6 +3,17 @@
 ### Day 17: January 19, 2017
 
 **Today's Progress**: 
+Solved the freeCodeCamp *Repeat a string repeat a string* algorithm challenge.
+
+**Thoughts** 
+Pretty straight forward again.
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Repeat a string repeat a string](https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string#?solution=%0Afunction%20repeatStringNumTimes(str%2C%20num)%20%7B%0A%20%20var%20arr%20%3D%20%5B%5D%3B%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20num%3B%20i%2B%2B)%20%7B%0A%20%20%20%20arr.push(str)%3B%0A%20%20%7D%0A%20%20return%20arr.join(%22%22)%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0ArepeatStringNumTimes(%22abc%22%2C%203)%3B)
+
+### Day 17: January 19, 2017
+
+**Today's Progress**: 
 Solved the freeCodeCamp *Confirm the Ending* algorithm challenge.
 
 **Thoughts** 
