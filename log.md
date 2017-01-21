@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 19: January 21, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Truncate a string* algorithm challenge.
+
+**Thoughts** 
+Pretty straight forward again.
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Truncate a string](https://www.freecodecamp.com/challenges/truncate-a-string#?solution=%0Afunction%20truncateString(str%2C%20num)%20%7B%0A%20%20if%20(str.length%20%3E%20num)%20%7B%0A%20%20%20%20if%20(num%20%3C%3D%203)%20%7B%0A%20%20%20%20%20%20return%20str.slice(0%2C%20num)%20%2B%20%22...%22%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20return%20str.slice(0%2C%20num-3)%20%2B%20%22...%22%3B%0A%20%20%20%20%7D%0A%20%20%7D%20else%20%7B%0A%20%20%20%20return%20str%3B%0A%20%20%7D%0A%7D%0A%0A%2F%2F%20Test%20case%0AtruncateString(%22Hello%22%2C%2010)%3B%0A)
+
 ### Day 18: January 20, 2017
 
 **Today's Progress**: 
