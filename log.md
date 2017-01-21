@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 15: January 18, 2017
+### Day 16: January 18, 2017
 
 **Today's Progress**: 
 Solved the freeCodeCamp *Return Largest Numbers in Arrays* algorithm challenge.
