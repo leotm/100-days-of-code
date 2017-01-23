@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 20: January 22, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Chunky Monkey* algorithm challenge.
+
+**Thoughts** 
+Failed with this one. Tried nested *for* loop create new array, each time the *index % num === 0*. But you can't *push* to an undefined index. Then accepted the hint it became obvious, slice then push.
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Chunky Monkey](https://www.freecodecamp.com/challenges/chunky-monkey#?solution=%0Afunction%20chunkArrayInGroups(arr%2C%20size)%20%7B%0A%20%20var%20groupsArray%20%3D%20%5B%5D%3B%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20arr.length%3B%20i%20%2B%3D%20size)%20%7B%0A%20%20%20%20groupsArray.push(arr.slice(i%2C%20i%2Bsize))%3B%0A%20%20%7D%0A%20%20return%20groupsArray%3B%0A%7D%0A%0AchunkArrayInGroups(%5B%22a%22%2C%20%22b%22%2C%20%22c%22%2C%20%22d%22%5D%2C%202)%3B%0A)
+
 ### Day 19: January 21, 2017
 
 **Today's Progress**: 
