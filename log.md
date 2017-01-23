@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 21: January 23, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Slasher Flick* algorithm challenge.
+
+**Thoughts** 
+An *unshift()* loop sprang to mind, to tried it:
+```
+function slasher(arr, howMany) {
+  for (var i = 0; i < howMany; i++) {
+    arr.shift();
+  }
+  return arr;
+}
+```
+Otherwise, no need to loop with *splice()*.
+
+**Link(s) to work**
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Slasher Flick](https://www.freecodecamp.com/challenges/slasher-flick#?solution=%0Afunction%20slasher(arr%2C%20howMany)%20%7B%0A%20%20arr.splice(0%2C%20howMany)%3B%0A%20%20return%20arr%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0Aslasher(%5B1%2C%202%2C%203%5D%2C%202)%3B)
+
 ### Day 20: January 22, 2017
 
 **Today's Progress**: 
