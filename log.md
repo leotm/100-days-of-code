@@ -6,7 +6,7 @@
 Solved the freeCodeCamp *Slasher Flick* algorithm challenge.
 
 **Thoughts** 
-An *unshift()* loop sprang to mind, to tried it:
+An *unshift()* loop sprang to mind, but probably not the best:
 ```
 function slasher(arr, howMany) {
   for (var i = 0; i < howMany; i++) {
