@@ -5,11 +5,12 @@
 ### Day 21: January 23, 2017
 
 **Today's Progress**: 
-Solved the freeCodeCamp *Slasher Flick* algorithm challenge.
-Solved the freeCodeCamp *Mutations* algorithm challenge.
+Solved the freeCodeCamp *Slasher Flick* and *Mutations* algorithm challenges.
 
 **Thoughts** 
+
 Slasher Flick:
+
 An *unshift()* loop sprang to mind, but probably not the best:
 ```
 function slasher(arr, howMany) {
