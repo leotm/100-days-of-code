@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 22: January 24, 2017
+
+**Today's Progress**: 
+Solved the freeCodeCamp *Seek and Destroy* algorithm challenge.
+
+**Thoughts** 
+Pretty easy after realising can pass the arguments as an extra parameter to the callback function in the filter() method.
+
+**Link(s) to work**
+
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Slasher Flick](https://www.freecodecamp.com/challenges/seek-and-destroy#?solution=%0Afunction%20destroyer(arr)%20%7B%0A%20%20return%20arr.filter(destroy(arguments))%3B%20%2F%2F%20Pass%20in%20arguments%0A%7D%0A%0Afunction%20destroy(args)%20%7B%0A%20%20return%20function(value)%20%7B%20%2F%2F%20Actual%20filter%20function%0A%20%20%20%20for%20(var%20i%20%3D%201%3B%20i%20%3C%20args.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20%20%20if%20(value%20%3D%3D%3D%20args%5Bi%5D)%20%2F%2F%20Seek%0A%20%20%20%20%20%20%20%20return%20false%3B%20%2F%2F%20Destroy%0A%20%20%20%20%7D%0A%20%20%20%20return%20true%3B%20%2F%2F%20Otherwise%20keep%0A%20%20%7D%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0Adestroyer(%5B1%2C%202%2C%203%2C%201%2C%202%2C%203%5D%2C%202%2C%203)%3B)
+
+[My solution: JavaScript Remove Multiple Values from Array Using Filter and Loop](http://stackoverflow.com/a/41837618/1998086)
+
 ### Day 21: January 23, 2017
 
 **Today's Progress**: 
