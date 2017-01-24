@@ -4,25 +4,33 @@
 
 **Today's Progress**: 
 
+Completed freeCodeCamp *Basic Algorithm Scripting* section:
 Solved the freeCodeCamp *Seek and Destroy* algorithm challenge.
 Solved the freeCodeCamp *Where do I belong* algorithm challenge.
+Solved the freeCodeCamp *Caesars Cipher* algorithm challenge.
 
 **Thoughts** 
 
-Seek and Destroy
+Seek and Destroy:
 
 Pretty easy after realising can pass the arguments as an extra parameter to the callback function in the filter() method.
 
-Where do I belong
+Where do I belong:
 
 Fairly straight forward.
+
+Caesars Cipher:
+
+Little tricky, but fine after checking the numeric codes of some sneaky non-alpha characters.
 
 **Link(s) to work**
 
 [freecodecamp.com/leotm | Basic Algorithm Scripting | Slasher Flick](https://www.freecodecamp.com/challenges/seek-and-destroy#?solution=%0Afunction%20destroyer(arr)%20%7B%0A%20%20return%20arr.filter(destroy(arguments))%3B%20%2F%2F%20Pass%20in%20arguments%0A%7D%0A%0Afunction%20destroy(args)%20%7B%0A%20%20return%20function(value)%20%7B%20%2F%2F%20Actual%20filter%20function%0A%20%20%20%20for%20(var%20i%20%3D%201%3B%20i%20%3C%20args.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20%20%20if%20(value%20%3D%3D%3D%20args%5Bi%5D)%20%2F%2F%20Seek%0A%20%20%20%20%20%20%20%20return%20false%3B%20%2F%2F%20Destroy%0A%20%20%20%20%7D%0A%20%20%20%20return%20true%3B%20%2F%2F%20Otherwise%20keep%0A%20%20%7D%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0Adestroyer(%5B1%2C%202%2C%203%2C%201%2C%202%2C%203%5D%2C%202%2C%203)%3B), [My solution: JavaScript Remove Multiple Values from Array Using Filter and Loop](http://stackoverflow.com/a/41837618/1998086)
 
 
-[freecodecamp.com/leotm | Basic Algorithm Scripting | Where do i belong](https://www.freecodecamp.com/challenges/where-do-i-belong#?solution=%0Afunction%20getIndexToIns(arr%2C%20num)%20%7B%0A%20%20arr.sort(ascending)%3B%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20arr.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(num%20%3C%3D%20arr%5Bi%5D)%20%7B%0A%20%20%20%20%20%20return%20i%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20return%20arr.length%3B%0A%7D%0A%0Afunction%20ascending(a%2C%20b)%7B%0A%20%20return%20a%20%3E%20b%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0AgetIndexToIns(%5B3%2C%2010%2C%205%5D%2C%203)%3B)
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Where do I belong](https://www.freecodecamp.com/challenges/where-do-i-belong#?solution=%0Afunction%20getIndexToIns(arr%2C%20num)%20%7B%0A%20%20arr.sort(ascending)%3B%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20arr.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(num%20%3C%3D%20arr%5Bi%5D)%20%7B%0A%20%20%20%20%20%20return%20i%3B%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20return%20arr.length%3B%0A%7D%0A%0Afunction%20ascending(a%2C%20b)%7B%0A%20%20return%20a%20%3E%20b%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0AgetIndexToIns(%5B3%2C%2010%2C%205%5D%2C%203)%3B)
+
+[freecodecamp.com/leotm | Basic Algorithm Scripting | Caesars Cipher](https://www.freecodecamp.com/challenges/caesars-cipher#?solution=%0Afunction%20rot13(str)%20%7B%20%2F%2F%20LBH%20QVQ%20VG!%0A%20%20var%20arr%20%3D%20%5B%5D%3B%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20str.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20if%20(str%5Bi%5D.charCodeAt()%20%3C%2065%20%7C%7C%20str%5Bi%5D.charCodeAt()%20%3E%2090)%20%7B%0A%20%20%20%20%20%20arr.push(String.fromCharCode(str%5Bi%5D.charCodeAt()))%3B%20%2F%2F%20If%20non-alphacapital%2C%20don%27t%20shift%0A%20%20%20%20%7D%20else%20if%20(str%5Bi%5D.charCodeAt()-13%20%3C%2065)%20%7B%0A%20%20%20%20%20%20arr.push(String.fromCharCode(str%5Bi%5D.charCodeAt()%2B13))%3B%20%2F%2F%20If%20left%20shift%20brings%20below%20%22A%22%2C%20right%20shift%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20arr.push(String.fromCharCode(str%5Bi%5D.charCodeAt()-13))%3B%20%2F%2F%20Otherwise%20left%20shift%0A%20%20%20%20%7D%0A%20%20%20%20%0A%20%20%7D%0A%20%20return%20arr.join(%22%22)%3B%0A%7D%0A%0A%2F%2F%20Test%20case%0Arot13(%22GUR%20DHVPX%20OEBJA%20QBT%20WHZCRQ%20BIRE%20GUR%20YNML%20SBK.%22)%3B)
 
 ### Day 21: January 23, 2017
 
