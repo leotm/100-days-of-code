@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 23: February 8, 2017
+
+**Today's Progress**: 
+
+Finished 7 freeCodeCamp excercises.
+Finished *JSON APIs and Ajax*.
+
+**Thoughts** 
+
+Learnt *Object.keys()*, *$.getJSON()*, *JSON.stringify()* and *navigator.geolocation* - good stuff.
+
+**Link(s) to work**
+[freecodecamp.com/leotm](https://www.freecodecamp.com/leotm)
+
 ### Day 22: January 24, 2017
 
 **Today's Progress**: 
@@ -304,7 +318,6 @@ Since have to wait for the remaining challenges to unlock, did a Database challe
 **Today's Progress**:
 Finished 39 FreeCodeCamp excercises.
 Watched last half of #Open2017
-
 
 **Thoughts**
 Finished the HTML5 & CSS section, then 1/4 of the Responsive Design with Bootstrap.
