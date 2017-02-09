@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 24: February 9, 2017
+
+**Today's Progress**: 
+
+Random Quote Machine.
+
+**Thoughts** 
+
+Initially went well and quick. Great that codepen.io imports the latest Bootstrap 4 alpha, which used before with the Angular 2 recipe book app. So can easily at margins, center and float with classes. Went for the MVC approach. Familiar doing it with vanilla JS. Couldn't find a json of quotes online as an array of objects, so went ahead and created that for the Model. What got messy and cost time was following the official Twitter Dev docs, [How to add a Tweet button to your website
+](https://dev.twitter.com/web/tweet-button). It moved the button higher, refusing to budge with margins. The URL refused to change. I tried *.href*, *setAttribute()* and jQuery's *.attr()*. I even tried recreating the button per click, but it wouldn't re-appear. After inspecting, I found the API was replacing the anchor with an iframe and child shadow DOM. But the URL still wouldnt' budge, after replacing the nested anchor's href. I had to cheat and look at the freeCodeCamp codepen example. Lesson learnt. Don't follow Twitter's tutorial. Now I had no iframe being generated, and the URL changed happily ever after. Added *target="_blank"*, done and dusted.
+
+**Link(s) to work**
+[Random Quote Machine](http://codepen.io/LeoTM/pen/mRGQqe)
+
 ### Day 23: February 8, 2017
 
 **Today's Progress**: 
