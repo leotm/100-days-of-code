@@ -1,5 +1,34 @@
 # 100 Days Of Code - Log
 
+### Day 26: February 16, 2017
+
+**Today's Progress**: 
+
+Finished traffic light server status excercise.
+
+**Thoughts** 
+
+Decided to try an ES6 class, for the traffic light.
+Instead of refreshing all of the traffic lights per add (borrowed from *Watch and Code™* MVC), made it only add it.
+The traffic lights kept shifting like crazy when updating every 10 seconds, due to removing/appending to a list item.
+So instead, wrapped them in div's with ID's, which would cement them in place, while the *ul* still gets removed/appended.
+
+**Link(s) to work**
+[Traffic Light Server Status](https://github.com/leotm/traffic-light-server-status)
+
+### Day 25: February 15, 2017
+
+**Today's Progress**: 
+
+Created MVP of traffic light server status excercise.
+
+**Thoughts** 
+
+...
+
+**Link(s) to work**
+[Traffic Light Server Status](https://github.com/leotm/traffic-light-server-status)
+
 ### Day 24: February 9, 2017
 
 **Today's Progress**: 
