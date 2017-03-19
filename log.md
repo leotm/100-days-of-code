@@ -1,5 +1,41 @@
 # 100 Days Of Code - Log
 
+### Day 28: March 19, 2017
+
+**Today's Progress**: 
+
+Wrote a quick post on How to auto-compile Sass & auto-refresh browser
+
+**Thoughts** 
+
+Decided to try an ES6 class, for the traffic light.
+Instead of refreshing all of the traffic lights per add (borrowed from *Watch and Code™* MVC), made it only add it.
+The traffic lights kept shifting like crazy when updating every 10 seconds, due to removing/appending to a list item.
+So instead, wrapped them in div's with ID's, which would cement them in place, while the *ul* still gets removed/appended.
+
+**Link(s) to work**
+[How to auto-compile Sass & auto-refresh browser](https://blog.netsca.pe/how-auto-compile-sass-refresh-browser/)
+
+### Day 27: March 18, 2017
+
+**Today's Progress**: 
+
+Got started with Sass.. finally! Figured out how Sass works in our purchased Eatrics HTML5 theme.
+
+**Thoughts** 
+
+Inspecting elements with DevTools and looking at background colours helped find the 2 main .css files repsonsible for the whole theme. The minified versions are loaded as expected.
+Was quite easy to find the matching 2 .scss files.
+Learnt about Sass partials. These underscore things. Found their matching partials which @import other partials.
+Started auto-compiling .scss to .css with --watch, and extra flag for minified. Noticed the generated source maps.
+They helped inspecting with DevTools again, to find one last partial I missed out before.
+To implement [this](http://www.colourlovers.com/palette/92095/Giant_Goldfish) colour palettee, intially began modifying the original Sass variable values.
+Then noticed will need to create new ones, so undid the changes, and added more variables for the new colour names.
+Then just needed to change the HTML classes to these new modifiers, e.g. *--clean-pondwater*.
+
+**Link(s) to work**
+[Eatrics](https://eatrics.com/)
+
 ### Day 26: February 16, 2017
 
 **Today's Progress**: 
